@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Naimkhalifa\FilamentTranslationsManager\Commands\FilamentTranslationsManagerCommand;
+use Naimkhalifa\FilamentTranslationsManager\Testing\TestsFilamentTranslationsManager;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Naimkhalifa\FilamentTranslationsManager\Commands\FilamentTranslationsManagerCommand;
-use Naimkhalifa\FilamentTranslationsManager\Testing\TestsFilamentTranslationsManager;
 
 class FilamentTranslationsManagerServiceProvider extends PackageServiceProvider
 {
