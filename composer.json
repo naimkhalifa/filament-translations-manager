@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "naimkhalifa/filament-translations-manager",
+    "description": "This is my package filament-translations-manager",
     "keywords": [
-        ":vendor_name",
+        "naimkhalifa",
         "laravel",
-        ":package_slug"
+        "filament-translations-manager"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/naimkhalifa/filament-translations-manager",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/naimkhalifa/filament-translations-manager/issues",
+        "source": "https://github.com/naimkhalifa/filament-translations-manager"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Naïm Khalifa",
+            "email": "n.khalifa@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0",
         "illuminate/contracts": "^10.0"
     },
@@ -42,13 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Naimkhalifa\\FilamentTranslationsManager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Naimkhalifa\\FilamentTranslationsManager\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,11 +65,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
-            }
+                "Naimkhalifa\\FilamentTranslationsManager\\FilamentTranslationsManagerServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
