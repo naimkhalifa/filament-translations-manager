@@ -103,7 +103,7 @@ class FilamentTranslationsManagerServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('filament-translations-manager', __DIR__ . '/../resources/dist/components/filament-translations-manager.js'),
-            Css::make('filament-translations-manager-styles', __DIR__ . '/../resources/dist/filament-translations-manager.css'),
+            // Css::make('filament-translations-manager-styles', __DIR__ . '/../resources/dist/filament-translations-manager.css'),
             Js::make('filament-translations-manager-scripts', __DIR__ . '/../resources/dist/filament-translations-manager.js'),
         ];
     }
